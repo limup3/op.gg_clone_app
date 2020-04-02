@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myapplication">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".weather"></activity>
+        <activity android:name=".map" />
+        <activity android:name=".game_result" />
+        <activity android:name=".game" />
+        <activity android:name=".memberinfo" />
+        <activity android:name=".Ranking" />
+        <activity android:name=".Champion" />
+        <activity android:name=".Write_List" />
+        <activity android:name=".Write_List2" />
+        <activity android:name=".Write" />
+        <activity android:name=".Reset_pw" />
+        <activity android:name=".Reset_pw_modify" />
+        <activity android:name=".Find_Pw" />
+        <activity android:name=".Find_id" />
+        <activity android:name=".Sign" />
+        <activity android:name=".RecordActivity" />
+        <activity android:name=".Login" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".community" />
+        <activity android:name=".community2" />
+
+        <meta-data
+            android:name="com.kakao.sdk.AppKey"
+            android:value="f18ba7292fa8a344fdfa2c5721ed08c7" />
+
+        <activity android:name=".loadingActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

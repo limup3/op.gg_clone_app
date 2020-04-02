@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="카테고리">
+        <item>유머</item>
+        <item>자유</item>
+        <item>팁과 노하우</item>
+        <item>유저 뉴스</item>
+        <item>사건 사고</item>
+        <item>버그신고</item>
+
+    </string-array>
+
+
+
+</resources>

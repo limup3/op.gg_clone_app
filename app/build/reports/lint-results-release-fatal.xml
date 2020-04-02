@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<issues format="5" by="lint 3.5.0">
+
+    <issue
+        id="NotSibling"
+        severity="Fatal"
+        message="`@+id/editText10` is not a sibling in the same `ConstraintLayout`"
+        category="Correctness"
+        priority="6"
+        summary="Invalid Constraints"
+        explanation="Layout constraints in a given `ConstraintLayout` or `RelativeLayout` should reference other views within the same relative layout (but not itself!)"
+        errorLine1="        app:layout_constraintEnd_toEndOf=&quot;@+id/editText10&quot; />"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="C:\Users\KM-notebook\AndroidStudioProjects\MyApplication\app\src\main\res\layout\activity_reset_pw.xml"
+            line="19"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="NotSibling"
+        severity="Fatal"
+        message="`@+id/button13` is not a sibling in the same `ConstraintLayout`"
+        category="Correctness"
+        priority="6"
+        summary="Invalid Constraints"
+        explanation="Layout constraints in a given `ConstraintLayout` or `RelativeLayout` should reference other views within the same relative layout (but not itself!)"
+        errorLine1="        app:layout_constraintBaseline_toBaselineOf=&quot;@+id/button13&quot;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="C:\Users\KM-notebook\AndroidStudioProjects\MyApplication\app\src\main\res\layout\activity_reset_pw.xml"
+            line="55"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="NotSibling"
+        severity="Fatal"
+        message="`@+id/button12` is not a sibling in the same `ConstraintLayout`"
+        category="Correctness"
+        priority="6"
+        summary="Invalid Constraints"
+        explanation="Layout constraints in a given `ConstraintLayout` or `RelativeLayout` should reference other views within the same relative layout (but not itself!)"
+        errorLine1="        app:layout_constraintStart_toEndOf=&quot;@+id/button12&quot;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="C:\Users\KM-notebook\AndroidStudioProjects\MyApplication\app\src\main\res\layout\activity_reset_pw.xml"
+            line="66"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="NotSibling"
+        severity="Fatal"
+        message="`@+id/editText11` is not a sibling in the same `ConstraintLayout`"
+        category="Correctness"
+        priority="6"
+        summary="Invalid Constraints"
+        explanation="Layout constraints in a given `ConstraintLayout` or `RelativeLayout` should reference other views within the same relative layout (but not itself!)"
+        errorLine1="        app:layout_constraintTop_toBottomOf=&quot;@+id/editText11&quot; />"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="C:\Users\KM-notebook\AndroidStudioProjects\MyApplication\app\src\main\res\layout\activity_reset_pw.xml"
+            line="67"
+            column="9"/>
+    </issue>
+
+</issues>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageButton
+        android:id="@+id/imageButton18"
+        android:layout_width="40dp"
+        android:layout_height="39dp"
+        android:adjustViewBounds="true"
+        android:background="@android:color/transparent"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/setting"
+        tools:layout_editor_absoluteX="294dp"
+        tools:layout_editor_absoluteY="60dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton17"
+        android:layout_width="40dp"
+        android:layout_height="43dp"
+        android:background="@android:color/transparent"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/write"
+        tools:layout_editor_absoluteX="294dp"
+        tools:layout_editor_absoluteY="108dp" />
+
+    <SearchView
+        android:layout_width="39dp"
+        android:layout_height="46dp"
+        tools:layout_editor_absoluteX="255dp"
+        tools:layout_editor_absoluteY="108dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

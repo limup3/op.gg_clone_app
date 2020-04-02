@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="4dp"
+        android:layout_gravity="center"
+        android:text="@string/champion"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TableRow>
+
+
+                    <ImageButton
+                        android:id="@+id/imageButton"
+                        android:layout_width="40dp"
+                        android:layout_height="160dp"
+                        android:layout_marginStart="3dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="3dp"
+                        android:layout_weight="1"
+                        android:contentDescription="@string/StringValue"
+                        app:srcCompat="@drawable/garen" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton2"
+                        android:layout_width="40dp"
+                        android:layout_height="160dp"
+                        android:layout_marginStart="3dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="3dp"
+                        android:layout_weight="1"
+                        android:contentDescription="@string/StringValue"
+                        app:srcCompat="@drawable/garlio" />
+
+
+                    <ImageButton
+                        android:id="@+id/imageButton3"
+                        android:layout_width="40dp"
+                        android:layout_height="160dp"
+                        android:layout_marginStart="3dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="3dp"
+                        android:layout_weight="1"
+                        android:contentDescription="@string/StringValue"
+                        app:srcCompat="@drawable/gaople" />
+
+                </TableRow>
+
+
+                <TableRow>
+
+                    <ImageButton
+                        android:id="@+id/imageButton4"
+                        android:layout_width="40dp"
+                        android:layout_height="160dp"
+                        android:layout_marginStart="3dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="3dp"
+                        android:layout_weight="1"
+                        android:contentDescription="@string/StringValue"
+                        app:srcCompat="@drawable/gula" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton5"
+                        android:layout_width="40dp"
+                        android:layout_height="160dp"
+                        android:layout_marginStart="3dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="3dp"
+                        android:layout_weight="1"
+                        android:contentDescription="@string/StringValue"
+                        app:srcCompat="@drawable/cham1" />
+
+
+                    <ImageButton
+                        android:id="@+id/imageButton6"
+                        android:layout_width="40dp"
+                        android:layout_height="160dp"
+                        android:layout_marginStart="3dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="3dp"
+                        android:layout_weight="1"
+                        android:contentDescription="@string/StringValue"
+                        app:srcCompat="@drawable/cham2" />
+
+
+                </TableRow>
+
+                <TableRow>
+
+                    <ImageButton
+                        android:id="@+id/imageButton7"
+                        android:layout_width="40dp"
+                        android:layout_height="160dp"
+                        android:layout_marginStart="3dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="3dp"
+                        android:layout_weight="1"
+                        android:contentDescription="@string/StringValue"
+                        app:srcCompat="@drawable/cham3" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton8"
+                        android:layout_width="40dp"
+                        android:layout_height="160dp"
+                        android:layout_marginStart="3dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="3dp"
+                        android:layout_weight="1"
+                        android:contentDescription="@string/StringValue"
+                        app:srcCompat="@drawable/cham4" />
+
+
+                    <ImageButton
+                        android:id="@+id/imageButton9"
+                        android:layout_width="40dp"
+                        android:layout_height="160dp"
+                        android:layout_marginStart="3dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="3dp"
+                        android:layout_weight="1"
+                        android:contentDescription="@string/StringValue"
+                        app:srcCompat="@drawable/cham5" />
+
+
+                </TableRow>
+
+                <TableRow>
+
+                    <ImageButton
+                        android:id="@+id/imageButton10"
+                        android:layout_width="40dp"
+                        android:layout_height="160dp"
+                        android:layout_marginStart="3dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="3dp"
+                        android:layout_weight="1"
+                        android:contentDescription="@string/StringValue"
+                        app:srcCompat="@drawable/cham6" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton11"
+                        android:layout_width="40dp"
+                        android:layout_height="160dp"
+                        android:layout_marginStart="3dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="3dp"
+                        android:layout_weight="1"
+                        android:contentDescription="@string/StringValue"
+                        app:srcCompat="@drawable/cham7" />
+
+
+                    <ImageButton
+                        android:id="@+id/imageButton12"
+                        android:layout_width="40dp"
+                        android:layout_height="160dp"
+                        android:layout_marginStart="3dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="3dp"
+                        android:layout_weight="1"
+                        android:contentDescription="@string/StringValue"
+                        app:srcCompat="@drawable/cham8" />
+
+
+                </TableRow>
+
+                <TableRow>
+
+                    <ImageButton
+                        android:id="@+id/imageButton13"
+                        android:layout_width="40dp"
+                        android:layout_height="160dp"
+                        android:layout_marginStart="3dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="3dp"
+                        android:layout_weight="1"
+                        android:contentDescription="@string/StringValue"
+                        app:srcCompat="@drawable/cham9" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton14"
+                        android:layout_width="40dp"
+                        android:layout_height="160dp"
+                        android:layout_marginStart="3dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="3dp"
+                        android:layout_weight="1"
+                        android:contentDescription="@string/StringValue"
+                        app:srcCompat="@drawable/cham10" />
+
+
+                    <ImageButton
+                        android:id="@+id/imageButton15"
+                        android:layout_width="40dp"
+                        android:layout_height="160dp"
+                        android:layout_marginStart="3dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="3dp"
+                        android:layout_weight="1"
+                        android:contentDescription="@string/StringValue"
+                        app:srcCompat="@drawable/cham11" />
+
+
+                </TableRow>
+
+            </TableLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/bottom_search"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/transparent"
+                    android:layout_gravity="bottom"
+                    android:layout_weight="1"
+                    android:text="검색"
+                    android:textColor="#03A9F4"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/bottom_community"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/transparent"
+                    android:layout_gravity="bottom"
+                    android:layout_weight="1"
+                    android:text="커뮤니티"
+                    android:textColor="#03A9F4"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/bottom_champion"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/transparent"
+                    android:layout_gravity="bottom"
+                    android:layout_weight="1"
+                    android:text="챔피언"
+                    android:textColor="#03A9F4"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/bottom_ranking"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/transparent"
+                    android:layout_gravity="bottom"
+                    android:layout_weight="1"
+                    android:text="랭킹"
+                    android:textColor="#03A9F4"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+</LinearLayout>
